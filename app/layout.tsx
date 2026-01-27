@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const baseURL = "https://biloniapride.vercel.app/" // https://www.biloniapride.com/
+const baseURL = "https://biloniapride-v1.vercel.app/" // https://www.biloniapride.com/
 
 export const metadata: Metadata = {
   title: {
