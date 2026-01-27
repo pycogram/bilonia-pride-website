@@ -9,48 +9,48 @@ import {
 import Image from 'next/image';
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      id: 1,
-      name: '[Client Name Placeholder]',
-      role: 'Property Investor',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
-      rating: 5,
-      text: 'Bilonia\'s Pride helped me find the perfect investment property. Their expertise in land acquisition and market analysis was invaluable. Highly recommend their services!',
-    },
-    {
-      id: 2,
-      name: '[Client Name Placeholder]',
-      role: 'Homeowner',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face',
-      rating: 5,
-      text: 'From start to finish, the team at Bilonia\'s Pride made buying our dream home seamless. Their professionalism and attention to detail exceeded all expectations.',
-    },
-    {
-      id: 3,
-      name: '[Client Name Placeholder]',
-      role: 'Business Owner',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
-      rating: 5,
-      text: 'I\'ve worked with many real estate companies, but none compare to Bilonia\'s Pride. They found the ideal commercial space for my business within my budget.',
-    },
-    {
-      id: 4,
-      name: '[Client Name Placeholder]',
-      role: 'Rental Client',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
-      rating: 5,
-      text: 'Their rental services are exceptional. Quick response times, fair pricing, and they truly care about matching you with the right property. Five stars!',
-    },
-    {
-      id: 5,
-      name: '[Client Name Placeholder]',
-      role: 'Land Developer',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face',
-      rating: 5,
-      text: 'Bilonia\'s Pride has been instrumental in growing my real estate portfolio. Their market insights and negotiation skills have saved me thousands. Trusted partners!',
-    },
-  ];
+const testimonials = [
+  {
+    id: 1,
+    name: 'Chukwuemeka Okonkwo',
+    role: 'Property Investor',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    text: 'Bilonia\'s Pride helped me find the perfect investment property. Their expertise in land acquisition and market analysis was invaluable. Highly recommend their services!',
+  },
+  {
+    id: 2,
+    name: 'Blessing Adeyemi',
+    role: 'Homeowner',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    text: 'From start to finish, the team at Bilonia\'s Pride made buying our dream home seamless. Their professionalism and attention to detail exceeded all expectations.',
+  },
+  {
+    id: 3,
+    name: 'Oluwaseun Babatunde',
+    role: 'Business Owner',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    text: 'I\'ve worked with many real estate companies, but none compare to Bilonia\'s Pride. They found the ideal commercial space for my business within my budget.',
+  },
+  {
+    id: 4,
+    name: 'Ngozi Okeke',
+    role: 'Rental Client',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    text: 'Their rental services are exceptional. Quick response times, fair pricing, and they truly care about matching you with the right property. Five stars!',
+  },
+  {
+    id: 5,
+    name: 'Ibrahim Yusuf',
+    role: 'Land Developer',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    text: 'Bilonia\'s Pride has been instrumental in growing my real estate portfolio. Their market insights and negotiation skills have saved me thousands. Trusted partners!',
+  },
+];
 
   return (
     <section className="section-padding bg-primary">
