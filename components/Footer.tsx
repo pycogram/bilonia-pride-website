@@ -29,7 +29,7 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const bLogo = "/b-logo.png"; 
+  const bLogo = "/b-logo.png";
 
   return (
     <footer className="bg-navy-dark text-primary-foreground">
