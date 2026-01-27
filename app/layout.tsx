@@ -53,12 +53,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: baseURL,
     siteName: "Bilonia Pride",
-    title: "Bilonia Pride - Premium Property Investment Solutions",
+    title: "Bilonia Pride - Property Investment",
     description:
       "Premier property investment solutions in lands, buildings, and rentals. Building wealth through real estate excellence in Delta and beyond.",
     images: [
       {
-        url: `${baseURL}assets/b-logo-bg.png`,  
+        url: `${baseURL}ab-logo2.png`,  
         width: 1200,
         height: 630,
         alt: "Bilonia Pride - Real Estate Investment",
