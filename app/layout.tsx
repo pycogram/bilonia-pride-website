@@ -58,7 +58,7 @@ export const metadata: Metadata = {
       "Premier property investment solutions in lands, buildings, and rentals. Building wealth through real estate excellence in Delta and beyond.",
     images: [
       {
-        url: `${baseURL}ab-logo2.png`,  
+        url: `${baseURL}assets/b-logo-bg.png`,  
         width: 1200,
         height: 630,
         alt: "Bilonia Pride - Real Estate Investment",

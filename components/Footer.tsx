@@ -46,7 +46,7 @@ const Footer = () => {
                     alt="AL" 
                     width={50}  
                     height={50} 
-                    className="w-12 h-12 md:w-[50px] md:h-[40px] mr-1 bg-white rounded-sm [filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]" 
+                    className="w-12 h-10 md:w-[50px] md:h-[40px] bg-white rounded-sm [filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]" 
                   />
                 </span>
               </div>
