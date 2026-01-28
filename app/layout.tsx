@@ -12,13 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const baseURL = "https://biloniapride-v1.vercel.app/" // https://www.biloniapride.com/
+const baseURL = "https://bilonia-pride-v2.vercel.app"; 
 
 export const metadata: Metadata = {
+  metadataBase: new URL(baseURL), 
+  
   title: {
     default: "Bilonia Pride Property Investment",
     template: "%s | Bilonia Pride",
   },
+  
   description:
     "Bilonia Pride offers premier property investment solutions in lands, buildings, and rentals. Build your wealth through real estate excellence with our expert guidance in Delta and beyond.",
 
@@ -46,7 +49,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Bilonia Pride Team" }],
   creator: "Bilonia Pride",
   publisher: "Bilonia Pride",
-  metadataBase: new URL(baseURL),
 
   openGraph: {
     type: "website",
@@ -58,7 +60,7 @@ export const metadata: Metadata = {
       "Premier property investment solutions in lands, buildings, and rentals. Building wealth through real estate excellence in Delta and beyond.",
     images: [
       {
-        url: `${baseURL}assets/b-logo-bg.png`,  
+        url: "/assets/b-logo-bg.png", // Relative URL - metadataBase will make it absolute
         width: 1200,
         height: 630,
         alt: "Bilonia Pride - Real Estate Investment",
@@ -71,7 +73,7 @@ export const metadata: Metadata = {
     title: "Bilonia Pride - Premium Property Investment Solutions",
     description:
       "Premier property investment solutions in lands, buildings, and rentals. Building wealth through real estate excellence.",
-    images: [`${baseURL}assets/b-logo-bg.png`],
+    images: ["/assets/b-logo-bg.png"], // Relative URL - metadataBase will make it absolute
     creator: "@biloniapride",
     site: "@biloniapride",
   },
@@ -124,8 +126,8 @@ export default function RootLayout({
               "name": "Bilonia Pride",
               "description": "Bilonia Pride offers premier property investment solutions in lands, buildings, and rentals. Build your wealth through real estate excellence.",
               "url": baseURL,
-              "logo": `${baseURL}assets/b-logo-bg.png`,
-              "image": `${baseURL}assets/b-logo-bg.png`,
+              "logo": `${baseURL}/assets/b-logo-bg.png`, // Added leading slash
+              "image": `${baseURL}/assets/b-logo-bg.png`, // Added leading slash
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Delta",
@@ -148,7 +150,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Bilonia Pride",
               "url": baseURL,
-              "logo": `${baseURL}assets/b-logo-bg.png`,
+              "logo": `${baseURL}/assets/b-logo-bg.png`, // Added leading slash
               "description": "Bilonia Pride offers premier property investment solutions in lands, buildings, and rentals. Build your wealth through real estate excellence."
             })
           }}
