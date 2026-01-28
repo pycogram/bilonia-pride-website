@@ -70,10 +70,10 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Bilonia Pride - Premium Property Investment Solutions",
+    title: "Bilonia Pride - Property Investment",
     description:
       "Premier property investment solutions in lands, buildings, and rentals. Building wealth through real estate excellence.",
-    images: ["/assets/b-logo-bg.png"], // Relative URL - metadataBase will make it absolute
+    images: ["/assets/b-logo-bg.png"], 
     creator: "@biloniapride",
     site: "@biloniapride",
   },
